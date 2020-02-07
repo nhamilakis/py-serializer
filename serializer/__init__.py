@@ -2,7 +2,6 @@
 __author__ = 'Hamilakis Nicolas'
 __copyright__ = 'Hamilakis Nicolas 2020'
 __license__ = 'MIT'
-__version__ = open('VERSION').read()
 __url__ = ''
 __maintainer__ = 'Hamilakis Nicolas'
 __email__ = 'nick.hamilakis562@gmail.com'
@@ -12,6 +11,9 @@ __description__ = "Package for serializing python object & dataclasses"
 from ._core import _Serializable as SerializableMixin
 from ._core import serializable
 from ._serializer import serializer
+from pathlib import Path
+
+__version__ = open(Path(__file__).parents[0] / 'VERSION').read()
 
 __doc__ = f"""
 +------======================================-------+
