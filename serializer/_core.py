@@ -1,5 +1,10 @@
-from dataclasses import dataclass
+#  The MIT License (MIT)
+#
+#  Copyright (c) 2020 Nicolas Hamilakis
+#
+
 import abc
+from dataclasses import dataclass
 
 from ._serializer import NotSerializableInstance, serializer
 

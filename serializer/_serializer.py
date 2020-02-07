@@ -1,6 +1,8 @@
-"""
-stuff
-"""
+#  The MIT License (MIT)
+#
+#  Copyright (c) 2020 Nicolas Hamilakis
+#
+
 from dataclasses import Field
 
 
@@ -33,7 +35,7 @@ def serializer(value: object, name: str = None, field: Field = None):
     if type(value) is tuple:
         return (
             serializer(x) for x in value
-         )
+        )
 
     # Generic serializable obj
     if hasattr(value, "__serialize__"):
