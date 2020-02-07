@@ -6,7 +6,7 @@ with (Path(__file__).parents[0] / 'README.md').open() as f:
     long_description = f.read()
 
 setup(
-    name="serializer",
+    name="py-serializer",
     packages=find_packages(),
     include_package_data=True,
     version=s.__version__,

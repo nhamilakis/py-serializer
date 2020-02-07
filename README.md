@@ -34,7 +34,7 @@ p = Person(
 print(p.to_dict())
 ```
 
-> ```json
+> ```
 > {
 >     'name': 'Paul', 
 >     'age': 25, 
