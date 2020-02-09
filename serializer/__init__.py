@@ -14,9 +14,9 @@ __description__ = "Package for serializing python object & dataclasses"
 
 from pathlib import Path
 
-from ._core import _Serializable as SerializableMixin
-from ._core import serializable
-from ._serializer import serializer
+from ._core import _Serializable as SerializableMixin  # noqa: F401
+from ._core import serializable  # noqa: F401
+from ._serializer import serializer  # noqa: F401
 
 __version__ = open(Path(__file__).parents[0] / 'VERSION').read()
 
@@ -30,4 +30,4 @@ __doc__ = f"""
 + Contact : {__maintainer__} <{__email__}>
 + Status : {__status__}
 +------======================================-------+
-"""
+"""  # noqa: W291

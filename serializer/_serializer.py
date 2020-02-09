@@ -46,4 +46,6 @@ def serializer(value: object, name: str = None, field: Field = None):
         return None
 
     name = value.__name__ if hasattr(value, '__name__') else ""
-    raise NotSerializableInstance(f"Object({name}, {type(value)}) could not be serialized !!")
+    raise NotSerializableInstance(
+        f"Object({name}, {type(value)}) could not be serialized !!"
+    )
