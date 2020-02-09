@@ -1,7 +1,7 @@
 __author__ = 'Hamilakis Nicolas'
 __copyright__ = 'Hamilakis Nicolas 2020'
 __license__ = 'MIT'
-__url__ = ''
+__url__ = 'https://github.com/nhamilakis/py-serializer'
 __maintainer__ = 'Hamilakis Nicolas'
 __email__ = 'nick.hamilakis562@gmail.com'
 __status__ = "production"
