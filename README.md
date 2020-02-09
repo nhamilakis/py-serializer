@@ -2,6 +2,8 @@
 
 A serialization module for python objects
 
+![Test](https://github.com/nhamilakis/py-serializer/workflows/Test/badge.svg) ![Upload Python Package](https://github.com/nhamilakis/py-serializer/workflows/Upload%20Python%20Package/badge.svg) [![PyPI version](https://badge.fury.io/py/py-serializer.svg)](https://badge.fury.io/py/py-serializer) 
+
 ## Quickstart
 
 > `pip install py-serializer`
