@@ -4,7 +4,7 @@ A serialization module for python objects
 
 ## Quickstart
 
-> `pip install .....`
+> `pip install py-serializer`
 
 
 ```python
